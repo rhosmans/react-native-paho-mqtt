@@ -1,3 +1,5 @@
+import PahoMqtt from './NativePahoMqtt';
+
 export function multiply(a: number, b: number): number {
-  return a * b;
+  return PahoMqtt.multiply(a, b);
 }
